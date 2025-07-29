@@ -1,0 +1,72 @@
+.topbar {
+     background-color: #777777;
+     padding: 9px;
+     text-align: center;
+}
+.background {
+     background-color: rgb(68, 68, 68);
+     padding: 24px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+@font-face {
+     font-family: planet;
+     src: url(Fonts/TW_Cen_MT.otf);
+}
+.title {
+     font-family: planet;
+     font-size: 50px;
+     margin: 0;
+     color: #ffffff;
+}
+.version {
+     font-family: planet;
+     font-size: 18px;
+     color: gray;
+     margin-left: 5px;
+     vertical-align: middle;
+}
+.game {
+     border: none;
+     width: 720px;
+     height: 540px;
+}
+.note {
+     color: gray;
+     font-size: 15px;
+     text-align: left;
+     margin: 20px;
+     padding: 4px;
+     font-family: planet;
+}
+.update {
+	 color: gold;
+     text-align: left;
+	 font-size: 21px;
+     margin: 20px;
+     padding: 3px;
+     font-family: planet;
+}
+.name {
+     text-align: left;
+     margin: 20px;
+     padding: 16px;
+     font-family: planet;
+}
+.center {
+     max-width: 1000px;
+     margin: 0 auto;
+     padding: 20px;
+     text-align: center;
+}
+text {
+     margin-left: 14px;
+     margin-right: 14px;
+}
+body {
+     background: #000000;
+     margin: 0;
+     padding: 0;
+     font-family: planet;
+}
